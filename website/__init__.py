@@ -20,7 +20,6 @@ def create_ws_app():
 
     from .models import User, Patient, Record
 
-
     create_database(app)
 
     login_manager = LoginManager()
